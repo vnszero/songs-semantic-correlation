@@ -1,0 +1,9 @@
+{
+    "songs_directory": "songs",
+    "embeddings_path": "data/cbow_s50.txt",
+    "visualization_method": "tsne",
+    "tsne_params": {
+        "perplexity": 10,
+        "learning_rate": 200
+    }
+}
