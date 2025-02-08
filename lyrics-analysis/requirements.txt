@@ -1,0 +1,14 @@
+Cython==3.0.11
+gensim==4.3.3
+joblib==1.4.2
+matplotlib==3.10.0  
+numpy==1.26.4
+scikit-learn==1.6.1
+scipy==1.13.1
+seaborn==0.13.2
+smart-open==7.1.0
+spacy==3.8.4
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+threadpoolctl==3.5.0
+wrapt==1.17.2
