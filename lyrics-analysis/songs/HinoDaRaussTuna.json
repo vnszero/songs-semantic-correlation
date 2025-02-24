@@ -1,13 +1,14 @@
 {
   "name": "CarpeDiem",
   "lyricists": [
-    "Letícia Ferreira, Ricardo Amorim"
-    
+    "Letícia Ferreira", 
+    "Ricardo Amorim"
   ],
   "melody_authors": [
-    "Letícia Ferreira, João Escobar"
+    "Letícia Ferreira", 
+    "João Escobar"
   ],
   "tone": "C",
-  "beats_per_minute": 85,
+  "beats_per_minute": "85",
   "lyrics": "Aqui está a Tuna Mista de Bragança Esta cidade é o nosso palco, de alegria e esperança O castelo cria em nós uma paixão ardente De amar Bragança, p’ra além do poente. Percorremos as calçadas da cidade Partilhamos melodias sempre com Verdade Plantamos alegria em cada coração Por cada nova letra de uma canção. RaussTuna, entre nós prevalece a amizade RaussTuna, tradição e valores RaussTuna, em cada terra fica a saudade RaussTuna és a menina Desta cidade Se há coisa que nunca vamos esquecer Grupo de Cantares um dia Tuna tinha de ser Cantamos de alegria junto ao coração Por esta vitória de dedicação. Foram conquistas e vitórias a preparar O espaço da tuna mista sempre a cantar Com união, trabalho e justiça A RaussTuna, vamos amar. RaussTuna, entre nós prevalece a amizade  RaussTuna, tradição e valores RaussTuna, em cada terra fica a saudade RaussTuna és a menina Desta cidade. RaussTuna, entre nós prevalece a amizade RaussTuna, tradição e valores RaussTuna, em cada terra fica a saudade RaussTuna és a menina Desta cidade. RaussTuna, entre nós prevalece a amizade RaussTuna, tradição e valores RaussTuna, em cada terra fica a Saudade RaussTuna és a menina Desta cidade. "
 }

@@ -2,12 +2,12 @@
     "name": "O Meu Curso",
     "lyricists": [
       "Vasco Carvalho"
-      
     ],
     "melody_authors": [
-      "Gonçalo Figueiredo, Carolina Rodrigues"
+      "Gonçalo Figueiredo", 
+      "Carolina Rodrigues"
     ],
     "tone": "C",
-    "beats_per_minute": 165,
+    "beats_per_minute": "165",
     "lyrics": "O meu curso é o melhor É nele que me vouy formar É o orgulho da academia Ninguém o pode negar Gritad e mão ao peito Pelo nome que nos chamamos Ninguém tem mais alegria Que este curso amamos Aqui vou aprender O sonho de me tornar Um grande sábio doutor Para os meu pais orgulhar Aqui vou ser feliz Com amor vou cantar Sobre as sebentas que li Tantas históriass para contar O meu curso é o melhor É nele que me vou formar É o orgulho da academia Ninguém o pode negar Grita de mão ao peito ninguém em mais alegria Que este curso que amamos"
   }

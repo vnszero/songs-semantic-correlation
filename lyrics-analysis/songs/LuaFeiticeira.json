@@ -1,11 +1,16 @@
 {
   "name": "Lua Feiticeira",
   "lyricists": [
-    "Andreia Brites, Jéssica Brites"
-    
+    "Andreia Brites",
+    "Jéssica Brites"
   ],
   "melody_authors": [
-    "Pedro Baptista, Gaby Mateus, Bruno Gonçalves, David Pinheiro, Miguel Pereira, Miguel Salsa"
+    "Pedro Baptista",
+    "Gaby Mateus",
+    "Bruno Gonçalves",
+    "David Pinheiro",
+    "Miguel Pereira",
+    "Miguel Salsa"
   ],
   "tone": "Am",
   "beats_per_minute": "110/145",
