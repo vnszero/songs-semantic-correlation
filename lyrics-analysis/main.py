@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from utils.preprocessing import preprocess_lyrics
 from utils.embeddings import EmbeddingHandler
 from visualization.plot_embeddings import plot_embeddings
@@ -23,6 +24,8 @@ def load_config(config_path="config.json"):
         return json.load(f)
 
 def main():
+    start_time = time.time()
+
     config = load_config()
     songs_dir = config["songs_directory"]
     embedding_path = config["embeddings_path"]
@@ -56,12 +59,12 @@ def main():
     # order by similarity (opcional)
     similarities.sort(key=lambda x: x[2], reverse=True)
 
-    # Exibir resultados formatados
+    # display results
     print("Similarity between songs:")
     for song1, song2, sim in similarities:
         print(f"{song1} ↔ {song2}: {sim:.4f}")
 
-    print(f"Musics with embeddings: {num_songs}")
+    print(f"Songs with embeddings: {num_songs}")
 
     # plot embeddings with t-SNE
     embeddings = [song["embedding"] for song in songs_with_embeddings]
@@ -70,6 +73,9 @@ def main():
     tsne_params["perplexity"] = min(tsne_params["perplexity"], len(songs_with_embeddings) - 1)
 
     plot_embeddings(embeddings, song_names, **tsne_params)
+
+    end_time = time.time()
+    print(f"\nExecution Time: {end_time - start_time:.2f} seconds")
 
 if __name__ == "__main__":
     main()
