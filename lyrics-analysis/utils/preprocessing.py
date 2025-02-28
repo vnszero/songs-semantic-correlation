@@ -14,8 +14,8 @@ def preprocess_lyrics(lyrics:str):
     # convert to lowercase
     lyrics = lyrics.lower()
 
-    # remove ponctuation and special characters
-    lyrics = re.sub(r"[^\w\s]", "", lyrics)
+    # Remove punctuation, special characters, and numbers
+    lyrics = re.sub(r"[^a-zA-ZÀ-ÿ\s]", "", lyrics)
 
     # Process the text with spaCy
     doc = nlp(lyrics)
