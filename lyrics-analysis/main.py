@@ -72,10 +72,10 @@ def main():
 
     tsne_params["perplexity"] = min(tsne_params["perplexity"], len(songs_with_embeddings) - 1)
 
-    plot_embeddings(embeddings, song_names, **tsne_params)
-
     end_time = time.time()
     print(f"\nExecution Time: {end_time - start_time:.2f} seconds")
+
+    plot_embeddings(embeddings, song_names, **tsne_params)
 
 if __name__ == "__main__":
     main()
