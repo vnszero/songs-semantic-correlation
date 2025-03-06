@@ -29,6 +29,7 @@ def main():
     config = load_config()
     songs_dir = config["songs_directory"]
     embedding_path = config["embeddings_path"]
+    output_path = config["output_path"]
     tsne_params = config.get("tsne_params", {"perplexity": 30, "learning_rate": 200})
 
     # load songs
@@ -60,11 +61,12 @@ def main():
     similarities.sort(key=lambda x: x[2], reverse=True)
 
     # display results
-    print("Similarity between songs:")
-    for song1, song2, sim in similarities:
-        print(f"{song1} ↔ {song2}: {sim:.4f}")
+    with open(output_path, "w") as output_file:
+        output_file.write("Similarity between songs:\n")
+        for song1, song2, sim in similarities:
+            output_file.write(f"{song1} ↔ {song2}: {sim:.4f}\n")
 
-    print(f"Songs with embeddings: {num_songs}")
+        output_file.write(f"Songs with embeddings: {num_songs}\n")
 
     # plot embeddings with t-SNE
     embeddings = [song["embedding"] for song in songs_with_embeddings]
@@ -75,7 +77,7 @@ def main():
     end_time = time.time()
     print(f"\nExecution Time: {end_time - start_time:.2f} seconds")
 
-    plot_embeddings(embeddings, song_names, **tsne_params)
+    plot_embeddings(embeddings, embedding_path, song_names, **tsne_params)
 
 if __name__ == "__main__":
     main()

@@ -5,7 +5,7 @@ import seaborn as sns
 import numpy as np
 from adjustText import adjust_text
 
-def plot_embeddings(embeddings, song_names, perplexity=30, learning_rate=200):
+def plot_embeddings(embeddings, embedding_path, song_names, perplexity=30, learning_rate=200):
     pca = PCA(n_components=2)
     reduced_embeddings = pca.fit_transform(np.array(embeddings))
 
@@ -24,7 +24,8 @@ def plot_embeddings(embeddings, song_names, perplexity=30, learning_rate=200):
 
     adjust_text(texts, arrowprops=dict(arrowstyle="-", color='gray', alpha=0.5))  # Auto-adjust labels
 
-    plt.title("Representação visual de semelhanças entre canções")  
+    embedding_lib_name = embedding_path.removeprefix('data/').removesuffix('.txt')
+    plt.title(f"Representação visual de semelhanças entre canções\nModelo {embedding_lib_name}")  
     plt.xlabel("Estilo lírico (Dimensão 1)")  
     plt.ylabel("Estilo lírico (Dimensão 2)")
 
