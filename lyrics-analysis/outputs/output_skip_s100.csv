@@ -1,0 +1,497 @@
+song1; song2; similarity
+Tempo; Serenata Menina; 0.8842
+Taberna Transmontana; Promessa de Estudante; 0.8798
+Lágrima; Carta Sem Endereço; 0.8767
+Taberna Transmontana; Sapo Estudante; 0.8749
+A Tuna!; Para Ti; 0.8690
+Noite Puxa Noite; Promessa de Estudante; 0.8664
+Sapo Estudante; Promessa de Estudante; 0.8649
+Hino Do Lagoa Azul; Azevinho; 0.8640
+Fim De Semana; Rauss, Quero Voltar; 0.8501
+Carta Sem Endereço; Promessa de Estudante; 0.8492
+Carpe Diem; Lado a Lado; 0.8437
+A Tuna!; Coração de Estudante; 0.8406
+Taberna Transmontana; Noite Puxa Noite; 0.8368
+Coração de Estudante; Serenata Menina; 0.8366
+Lágrima; Para Ti; 0.8359
+Secreto Desejo; Coração de Estudante; 0.8314
+Noite Puxa Noite; Sapo Estudante; 0.8300
+Serenata Menina; Lado a Lado; 0.8295
+Carta Sem Endereço; Sapo Estudante; 0.8287
+Lua Feiticeira; Lado a Lado; 0.8254
+Taberna Transmontana; Serenata Menina; 0.8247
+Hino da RaussTuna; Serenata Menina; 0.8241
+Secreto Desejo; Serenata Menina; 0.8237
+Lua Feiticeira; Coração de Estudante; 0.8216
+Sapo Estudante; Serenata Menina; 0.8212
+Lua Feiticeira; Secreto Desejo; 0.8206
+Lágrima; Serenata Menina; 0.8195
+Hino Do Caloiro; A Aventura Começou; 0.8195
+Taberna Transmontana; Hino Do Lagoa Azul; 0.8193
+Taberna Transmontana; Azevinho; 0.8187
+Promessa de Estudante; Serenata Menina; 0.8158
+Carpe Diem; Hino da RaussTuna; 0.8149
+Noite Puxa Noite; Serenata Menina; 0.8144
+Taberna Transmontana; Lágrima; 0.8132
+Fim De Semana; Sapo Estudante; 0.8128
+Hino Do Lagoa Azul; Lado a Lado; 0.8119
+Taberna Transmontana; Febres Altas; 0.8102
+Fim De Semana; Promessa de Estudante; 0.8093
+A Tuna!; Lua Feiticeira; 0.8085
+Carta Sem Endereço; Secreto Desejo; 0.8076
+Lua Feiticeira; Serenata Menina; 0.8075
+Febres Altas; Lua Feiticeira; 0.8068
+Lágrima; Promessa de Estudante; 0.8066
+Embuste Das Cidras; Promessa de Estudante; 0.8057
+Carpe Diem; Rauss, Quero Voltar; 0.8043
+Hino da RaussTuna; Lado a Lado; 0.8033
+A Tuna!; Serenata Menina; 0.8017
+Rauss, Quero Voltar; Digressão; 0.8016
+Carta Sem Endereço; Tempo; 0.8014
+Secreto Desejo; Lado a Lado; 0.8001
+Carpe Diem; Sapo Estudante; 0.7993
+Febres Altas; Azevinho; 0.7990
+Carta Sem Endereço; O Meu Curso; 0.7984
+A Tuna!; Secreto Desejo; 0.7971
+Secreto Desejo; O Meu Curso; 0.7969
+Lua Feiticeira; Hino Do Lagoa Azul; 0.7962
+Taberna Transmontana; Tempo; 0.7956
+Carta Sem Endereço; Serenata Menina; 0.7948
+Rauss, Quero Voltar; Promessa de Estudante; 0.7941
+Carpe Diem; Tempo; 0.7937
+Tempo; Hino da RaussTuna; 0.7937
+Hino da RaussTuna; Digressão; 0.7934
+A Aventura Começou; Rauss, Quero Voltar; 0.7932
+Taberna Transmontana; Carta Sem Endereço; 0.7919
+Lágrima; Tempo; 0.7919
+Vida De Caloiro; Hino da RaussTuna; 0.7898
+Tempo; Rauss, Quero Voltar; 0.7897
+Sapo Estudante; Hino Do Lagoa Azul; 0.7896
+Lua Feiticeira; Azevinho; 0.7895
+Tempo; Lado a Lado; 0.7894
+Rauss, Quero Voltar; Serenata Menina; 0.7893
+Carta Sem Endereço; Rauss, Quero Voltar; 0.7888
+Coração de Estudante; Hino da RaussTuna; 0.7873
+Sapo Estudante; Azevinho; 0.7871
+Rauss, Quero Voltar; Hino da RaussTuna; 0.7863
+Lágrima; Sapo Estudante; 0.7861
+O Meu Curso; Serenata Menina; 0.7857
+Febres Altas; Zé Fadista; 0.7856
+A Tuna!; Carta Sem Endereço; 0.7856
+Vida De Caloiro; Serenata Menina; 0.7847
+Sapo Estudante; Rauss, Quero Voltar; 0.7841
+Carpe Diem; Serenata Menina; 0.7834
+Embuste Das Cidras; Taberna Transmontana; 0.7832
+Taberna Transmontana; Lado a Lado; 0.7808
+Tempo; Secreto Desejo; 0.7799
+Tempo; Sapo Estudante; 0.7792
+Lua Feiticeira; Hino da RaussTuna; 0.7791
+Lágrima; Secreto Desejo; 0.7786
+Taberna Transmontana; Secreto Desejo; 0.7778
+Febres Altas; Serenata Menina; 0.7777
+Febres Altas; Noite Puxa Noite; 0.7768
+Carta Sem Endereço; Para Ti; 0.7768
+Azevinho; Lado a Lado; 0.7767
+Lágrima; Noite Puxa Noite; 0.7750
+Tempo; Promessa de Estudante; 0.7748
+O Meu Curso; Promessa de Estudante; 0.7745
+Serenata Menina; Digressão; 0.7743
+Hino Do Lagoa Azul; Hino da RaussTuna; 0.7708
+Sapo Estudante; O Meu Curso; 0.7702
+Digressão; Lado a Lado; 0.7688
+Secreto Desejo; Sapo Estudante; 0.7677
+A Aventura Começou; Sapo Estudante; 0.7676
+Secreto Desejo; Promessa de Estudante; 0.7668
+Taberna Transmontana; Fim De Semana; 0.7660
+Lágrima; O Meu Curso; 0.7658
+Sapo Estudante; Lado a Lado; 0.7658
+A Tuna!; Lágrima; 0.7656
+Carpe Diem; Secreto Desejo; 0.7648
+Febres Altas; Hino Do Lagoa Azul; 0.7635
+Zé Fadista; Azevinho; 0.7635
+Rauss, Quero Voltar; Lado a Lado; 0.7630
+Taberna Transmontana; Zé Fadista; 0.7623
+Tempo; Coração de Estudante; 0.7620
+Carpe Diem; Coração de Estudante; 0.7614
+Fim De Semana; Hino Do Lagoa Azul; 0.7610
+Fim De Semana; A Aventura Começou; 0.7606
+Coração de Estudante; Lado a Lado; 0.7601
+A Aventura Começou; Promessa de Estudante; 0.7596
+Hino Do Lagoa Azul; Serenata Menina; 0.7575
+Tempo; Hino Do Lagoa Azul; 0.7564
+Carpe Diem; Fim De Semana; 0.7558
+Carpe Diem; Carta Sem Endereço; 0.7556
+A Tuna!; Hino da RaussTuna; 0.7546
+Zé Fadista; Serenata Menina; 0.7545
+A Tuna!; Lado a Lado; 0.7539
+O Meu Curso; Rauss, Quero Voltar; 0.7534
+Lua Feiticeira; Zé Fadista; 0.7520
+Noite Puxa Noite; Lado a Lado; 0.7519
+Carpe Diem; Lua Feiticeira; 0.7494
+Taberna Transmontana; Rauss, Quero Voltar; 0.7484
+A Tuna!; O Meu Curso; 0.7481
+Para Ti; Serenata Menina; 0.7480
+A Tuna!; Zé Fadista; 0.7474
+A Tuna!; Carpe Diem; 0.7468
+Carta Sem Endereço; Noite Puxa Noite; 0.7466
+Azevinho; Serenata Menina; 0.7458
+Embuste Das Cidras; Sapo Estudante; 0.7454
+Tempo; Lua Feiticeira; 0.7451
+Vida De Caloiro; Rauss, Quero Voltar; 0.7451
+Carpe Diem; Hino Do Lagoa Azul; 0.7449
+Fim De Semana; Noite Puxa Noite; 0.7432
+Vida De Caloiro; A Aventura Começou; 0.7431
+Sapo Estudante; Digressão; 0.7430
+Tempo; Noite Puxa Noite; 0.7421
+Fim De Semana; Carta Sem Endereço; 0.7411
+Febres Altas; Sapo Estudante; 0.7408
+A Tuna!; Tempo; 0.7404
+Vida De Caloiro; Promessa de Estudante; 0.7403
+Febres Altas; Tempo; 0.7396
+Rauss, Quero Voltar; Vamos Ao Festival; 0.7393
+Carpe Diem; Azevinho; 0.7388
+Febres Altas; Lado a Lado; 0.7379
+Sapo Estudante; Coração de Estudante; 0.7367
+Fim De Semana; Digressão; 0.7358
+Noite Puxa Noite; Azevinho; 0.7355
+Carta Sem Endereço; A Aventura Começou; 0.7345
+Fim De Semana; Tempo; 0.7337
+Zé Fadista; Coração de Estudante; 0.7312
+Sapo Estudante; Hino da RaussTuna; 0.7310
+A Tuna!; Sapo Estudante; 0.7300
+Noite Puxa Noite; Hino Do Lagoa Azul; 0.7286
+A Aventura Começou; O Meu Curso; 0.7286
+Carpe Diem; O Meu Curso; 0.7284
+Lágrima; Carpe Diem; 0.7284
+Fim De Semana; Lado a Lado; 0.7284
+A Tuna!; Febres Altas; 0.7283
+Taberna Transmontana; O Meu Curso; 0.7276
+Vida De Caloiro; Sapo Estudante; 0.7260
+Noite Puxa Noite; Secreto Desejo; 0.7259
+A Aventura Começou; Serenata Menina; 0.7257
+Promessa de Estudante; Lado a Lado; 0.7248
+Secreto Desejo; Fraldiqueiros de Mindelo; 0.7231
+Carpe Diem; Digressão; 0.7231
+Febres Altas; Promessa de Estudante; 0.7213
+Vida De Caloiro; Digressão; 0.7205
+Taberna Transmontana; Lua Feiticeira; 0.7205
+Azevinho; Coração de Estudante; 0.7203
+Tempo; Digressão; 0.7188
+Secreto Desejo; Rauss, Quero Voltar; 0.7184
+Lágrima; Lado a Lado; 0.7181
+Taberna Transmontana; Digressão; 0.7181
+Vida De Caloiro; Coração de Estudante; 0.7171
+A Aventura Começou; Vamos Ao Festival; 0.7149
+Lua Feiticeira; Para Ti; 0.7146
+Carta Sem Endereço; Lado a Lado; 0.7144
+Taberna Transmontana; Hino da RaussTuna; 0.7139
+Azevinho; Hino da RaussTuna; 0.7132
+Fim De Semana; Serenata Menina; 0.7123
+Fim De Semana; Hino da RaussTuna; 0.7123
+Lua Feiticeira; Sapo Estudante; 0.7113
+Lágrima; Febres Altas; 0.7108
+Zé Fadista; Lado a Lado; 0.7096
+Vida De Caloiro; O Meu Curso; 0.7083
+Tempo; O Meu Curso; 0.7082
+O Meu Curso; Coração de Estudante; 0.7078
+Lágrima; Rauss, Quero Voltar; 0.7077
+Vida De Caloiro; Tempo; 0.7074
+Para Ti; Lado a Lado; 0.7058
+Febres Altas; Para Ti; 0.7051
+Vida De Caloiro; Sempre Bragança; 0.7049
+Sapo Estudante; Zé Fadista; 0.7046
+Taberna Transmontana; Carpe Diem; 0.7044
+Tempo; A Aventura Começou; 0.7035
+Carta Sem Endereço; Coração de Estudante; 0.7032
+Fraldiqueiros de Mindelo; Lado a Lado; 0.7028
+Vida De Caloiro; Fim De Semana; 0.7021
+Carpe Diem; Promessa de Estudante; 0.7007
+A Aventura Começou; Hino da RaussTuna; 0.7007
+Fim De Semana; Azevinho; 0.7007
+Sempre Bragança; Hino da RaussTuna; 0.6998
+Sapo Estudante; Vamos Ao Festival; 0.6996
+Noite Puxa Noite; Coração de Estudante; 0.6995
+Taberna Transmontana; Para Ti; 0.6993
+Promessa de Estudante; Coração de Estudante; 0.6983
+Febres Altas; Coração de Estudante; 0.6979
+Tempo; Zé Fadista; 0.6977
+Azevinho; Promessa de Estudante; 0.6976
+Taberna Transmontana; A Tuna!; 0.6975
+Secreto Desejo; Azevinho; 0.6975
+Noite Puxa Noite; Zé Fadista; 0.6970
+O Meu Curso; Para Ti; 0.6970
+Secreto Desejo; Hino da RaussTuna; 0.6968
+A Aventura Começou; Digressão; 0.6962
+Lágrima; Hino Do Lagoa Azul; 0.6959
+Sapo Estudante; Para Ti; 0.6957
+Febres Altas; Hino da RaussTuna; 0.6953
+Tempo; Azevinho; 0.6940
+Taberna Transmontana; Vida De Caloiro; 0.6939
+Hino Do Lagoa Azul; Promessa de Estudante; 0.6919
+Embuste Das Cidras; Hino Do Lagoa Azul; 0.6918
+Lágrima; Lua Feiticeira; 0.6917
+Taberna Transmontana; A Aventura Começou; 0.6912
+Lua Feiticeira; Fraldiqueiros de Mindelo; 0.6912
+O Meu Curso; Lado a Lado; 0.6905
+Zé Fadista; Promessa de Estudante; 0.6904
+Lágrima; Hino da RaussTuna; 0.6894
+Fim De Semana; Vamos Ao Festival; 0.6888
+Secreto Desejo; Para Ti; 0.6877
+Vida De Caloiro; Carpe Diem; 0.6875
+Secreto Desejo; Zé Fadista; 0.6867
+Embuste Das Cidras; Febres Altas; 0.6867
+O Meu Curso; Zé Fadista; 0.6866
+Noite Puxa Noite; Fraldiqueiros de Mindelo; 0.6860
+Carta Sem Endereço; Hino Do Lagoa Azul; 0.6856
+Zé Fadista; Hino Do Lagoa Azul; 0.6850
+Noite Puxa Noite; O Meu Curso; 0.6847
+Tempo; Para Ti; 0.6835
+Vamos Ao Festival; Digressão; 0.6833
+Carta Sem Endereço; Hino da RaussTuna; 0.6826
+Secreto Desejo; Hino Do Lagoa Azul; 0.6822
+Promessa de Estudante; Digressão; 0.6820
+Rauss, Quero Voltar; Hino Do Lagoa Azul; 0.6817
+O Meu Curso; Hino da RaussTuna; 0.6812
+Taberna Transmontana; Coração de Estudante; 0.6810
+Zé Fadista; Para Ti; 0.6808
+Febres Altas; Fraldiqueiros de Mindelo; 0.6806
+Embuste Das Cidras; Noite Puxa Noite; 0.6783
+Sempre Bragança; A Aventura Começou; 0.6781
+Rauss, Quero Voltar; Coração de Estudante; 0.6780
+Fraldiqueiros de Mindelo; Promessa de Estudante; 0.6779
+Promessa de Estudante; Hino da RaussTuna; 0.6754
+A Tuna!; Promessa de Estudante; 0.6752
+A Aventura Começou; Noite Puxa Noite; 0.6747
+Hino Do Lagoa Azul; Digressão; 0.6746
+Fraldiqueiros de Mindelo; Coração de Estudante; 0.6740
+Sempre Bragança; Secreto Desejo; 0.6730
+A Tuna!; Hino Do Lagoa Azul; 0.6728
+Fraldiqueiros de Mindelo; Serenata Menina; 0.6715
+Lágrima; Coração de Estudante; 0.6713
+Embuste Das Cidras; Carta Sem Endereço; 0.6702
+A Tuna!; Azevinho; 0.6696
+O Meu Curso; Fraldiqueiros de Mindelo; 0.6694
+Embuste Das Cidras; Azevinho; 0.6654
+Embuste Das Cidras; Fim De Semana; 0.6644
+Hino Do Lagoa Azul; Coração de Estudante; 0.6634
+A Tuna!; Noite Puxa Noite; 0.6632
+Hino Do Caloiro; Vida De Caloiro; 0.6630
+Promessa de Estudante; Para Ti; 0.6625
+Febres Altas; Secreto Desejo; 0.6617
+Sempre Bragança; Azevinho; 0.6615
+Carta Sem Endereço; Zé Fadista; 0.6615
+Lágrima; Fim De Semana; 0.6613
+Lua Feiticeira; Noite Puxa Noite; 0.6609
+Noite Puxa Noite; Rauss, Quero Voltar; 0.6602
+Carpe Diem; Vamos Ao Festival; 0.6601
+Carta Sem Endereço; Lua Feiticeira; 0.6596
+Zé Fadista; Hino da RaussTuna; 0.6587
+Carpe Diem; Para Ti; 0.6563
+Sapo Estudante; Fraldiqueiros de Mindelo; 0.6562
+Hino Do Lagoa Azul; Para Ti; 0.6560
+Hino da RaussTuna; Para Ti; 0.6551
+Febres Altas; Carta Sem Endereço; 0.6549
+Febres Altas; Carpe Diem; 0.6548
+Carpe Diem; Noite Puxa Noite; 0.6547
+Sempre Bragança; Lua Feiticeira; 0.6542
+Vida De Caloiro; Carta Sem Endereço; 0.6542
+A Aventura Começou; Secreto Desejo; 0.6538
+A Tuna!; Fraldiqueiros de Mindelo; 0.6535
+Embuste Das Cidras; Lágrima; 0.6532
+Promessa de Estudante; Vamos Ao Festival; 0.6530
+Lágrima; Vida De Caloiro; 0.6528
+Carpe Diem; A Aventura Começou; 0.6528
+Vida De Caloiro; Azevinho; 0.6528
+Fim De Semana; O Meu Curso; 0.6524
+Embuste Das Cidras; Lado a Lado; 0.6517
+Para Ti; Digressão; 0.6512
+Vida De Caloiro; Noite Puxa Noite; 0.6503
+Sempre Bragança; Carpe Diem; 0.6499
+Hino Do Caloiro; Sempre Bragança; 0.6485
+Sempre Bragança; Serenata Menina; 0.6485
+Febres Altas; Vida De Caloiro; 0.6474
+Coração de Estudante; Para Ti; 0.6461
+Lágrima; Zé Fadista; 0.6445
+Lágrima; Fraldiqueiros de Mindelo; 0.6426
+Carta Sem Endereço; Azevinho; 0.6423
+Sempre Bragança; Tempo; 0.6420
+Lágrima; Digressão; 0.6418
+Sempre Bragança; Rauss, Quero Voltar; 0.6408
+A Aventura Começou; Fraldiqueiros de Mindelo; 0.6389
+Vamos Ao Festival; Hino da RaussTuna; 0.6385
+Sempre Bragança; Coração de Estudante; 0.6382
+Vida De Caloiro; Secreto Desejo; 0.6382
+A Tuna!; A Aventura Começou; 0.6376
+Noite Puxa Noite; Hino da RaussTuna; 0.6367
+A Tuna!; Rauss, Quero Voltar; 0.6341
+Noite Puxa Noite; Digressão; 0.6339
+Carpe Diem; Fraldiqueiros de Mindelo; 0.6339
+Noite Puxa Noite; Para Ti; 0.6331
+Sempre Bragança; Carta Sem Endereço; 0.6323
+Lua Feiticeira; Digressão; 0.6319
+Embuste Das Cidras; Tempo; 0.6315
+Embuste Das Cidras; Serenata Menina; 0.6312
+O Meu Curso; Vamos Ao Festival; 0.6311
+Zé Fadista; Fraldiqueiros de Mindelo; 0.6309
+Carta Sem Endereço; Digressão; 0.6291
+Carta Sem Endereço; Fraldiqueiros de Mindelo; 0.6285
+Febres Altas; O Meu Curso; 0.6269
+Embuste Das Cidras; Rauss, Quero Voltar; 0.6266
+Vida De Caloiro; Hino Do Lagoa Azul; 0.6264
+O Meu Curso; Digressão; 0.6259
+Fraldiqueiros de Mindelo; Hino da RaussTuna; 0.6257
+Lua Feiticeira; O Meu Curso; 0.6256
+Vida De Caloiro; Lado a Lado; 0.6254
+A Tuna!; Vida De Caloiro; 0.6249
+Rauss, Quero Voltar; Azevinho; 0.6229
+Lágrima; Azevinho; 0.6222
+A Tuna!; Digressão; 0.6199
+Lágrima; A Aventura Começou; 0.6191
+Fraldiqueiros de Mindelo; Vamos Ao Festival; 0.6181
+Taberna Transmontana; Fraldiqueiros de Mindelo; 0.6174
+Azevinho; Digressão; 0.6170
+Embuste Das Cidras; Digressão; 0.6147
+O Meu Curso; Azevinho; 0.6135
+Sempre Bragança; Sapo Estudante; 0.6130
+A Aventura Começou; Lado a Lado; 0.6123
+Sempre Bragança; O Meu Curso; 0.6121
+A Tuna!; Sempre Bragança; 0.6119
+Embuste Das Cidras; Secreto Desejo; 0.6113
+Carta Sem Endereço; Vamos Ao Festival; 0.6104
+Febres Altas; Fim De Semana; 0.6099
+Hino Do Caloiro; Fraldiqueiros de Mindelo; 0.6099
+Sempre Bragança; Zé Fadista; 0.6093
+Coração de Estudante; Digressão; 0.6090
+Hino Do Lagoa Azul; Vamos Ao Festival; 0.6085
+Embuste Das Cidras; Zé Fadista; 0.6084
+Vida De Caloiro; Lua Feiticeira; 0.6081
+Lua Feiticeira; Rauss, Quero Voltar; 0.6065
+Hino Do Caloiro; Vamos Ao Festival; 0.6064
+A Aventura Começou; Zé Fadista; 0.6062
+Vida De Caloiro; Vamos Ao Festival; 0.6062
+Febres Altas; Digressão; 0.6058
+Vida De Caloiro; Fraldiqueiros de Mindelo; 0.6048
+Carpe Diem; Zé Fadista; 0.6043
+Secreto Desejo; Digressão; 0.6037
+Sempre Bragança; Fim De Semana; 0.6035
+Fraldiqueiros de Mindelo; Para Ti; 0.6030
+Sempre Bragança; Hino Do Lagoa Azul; 0.6027
+Sempre Bragança; Lado a Lado; 0.6001
+Embuste Das Cidras; Carpe Diem; 0.5995
+Vamos Ao Festival; Serenata Menina; 0.5992
+Vamos Ao Festival; Lado a Lado; 0.5989
+Embuste Das Cidras; O Meu Curso; 0.5952
+Zé Fadista; Rauss, Quero Voltar; 0.5951
+Fim De Semana; Secreto Desejo; 0.5942
+O Meu Curso; Hino Do Lagoa Azul; 0.5935
+Lua Feiticeira; Promessa de Estudante; 0.5933
+A Aventura Começou; Coração de Estudante; 0.5922
+Embuste Das Cidras; Para Ti; 0.5904
+Hino Do Caloiro; Hino da RaussTuna; 0.5880
+Fraldiqueiros de Mindelo; Digressão; 0.5878
+Azevinho; Para Ti; 0.5862
+Vida De Caloiro; Zé Fadista; 0.5862
+A Tuna!; Vamos Ao Festival; 0.5854
+Taberna Transmontana; Sempre Bragança; 0.5833
+Fraldiqueiros de Mindelo; Azevinho; 0.5830
+Noite Puxa Noite; Vamos Ao Festival; 0.5828
+Embuste Das Cidras; Vamos Ao Festival; 0.5819
+Zé Fadista; Digressão; 0.5807
+Febres Altas; A Aventura Começou; 0.5806
+Embuste Das Cidras; Hino da RaussTuna; 0.5796
+Taberna Transmontana; Vamos Ao Festival; 0.5794
+Sempre Bragança; Promessa de Estudante; 0.5782
+Rauss, Quero Voltar; Fraldiqueiros de Mindelo; 0.5779
+Rauss, Quero Voltar; Para Ti; 0.5746
+Embuste Das Cidras; Lua Feiticeira; 0.5737
+Fraldiqueiros de Mindelo; Hino Do Lagoa Azul; 0.5712
+Secreto Desejo; Vamos Ao Festival; 0.5682
+Vida De Caloiro; Para Ti; 0.5675
+A Aventura Começou; Hino Do Lagoa Azul; 0.5673
+Hino Do Caloiro; Rauss, Quero Voltar; 0.5672
+Hino Do Caloiro; Sapo Estudante; 0.5670
+Febres Altas; Sempre Bragança; 0.5667
+Embuste Das Cidras; Fraldiqueiros de Mindelo; 0.5662
+Tempo; Fraldiqueiros de Mindelo; 0.5661
+Fim De Semana; Zé Fadista; 0.5658
+Lágrima; Sempre Bragança; 0.5646
+A Aventura Começou; Para Ti; 0.5636
+Lágrima; Vamos Ao Festival; 0.5620
+Sempre Bragança; Digressão; 0.5619
+Sempre Bragança; Fraldiqueiros de Mindelo; 0.5602
+Hino Do Caloiro; O Meu Curso; 0.5597
+Embuste Das Cidras; A Tuna!; 0.5556
+A Aventura Começou; Azevinho; 0.5553
+Febres Altas; Rauss, Quero Voltar; 0.5545
+A Tuna!; Fim De Semana; 0.5522
+Vamos Ao Festival; Coração de Estudante; 0.5518
+Tempo; Vamos Ao Festival; 0.5508
+Fim De Semana; Coração de Estudante; 0.5492
+Fim De Semana; Para Ti; 0.5488
+A Aventura Começou; Lua Feiticeira; 0.5484
+Embuste Das Cidras; Coração de Estudante; 0.5418
+Fim De Semana; Fraldiqueiros de Mindelo; 0.5413
+A Tuna!; Hino Do Caloiro; 0.5366
+Sempre Bragança; Vamos Ao Festival; 0.5365
+Fim De Semana; Lua Feiticeira; 0.5352
+Embuste Das Cidras; A Aventura Começou; 0.5304
+Lua Feiticeira; Vamos Ao Festival; 0.5288
+Hino Do Caloiro; Carpe Diem; 0.5275
+Embuste Das Cidras; Vida De Caloiro; 0.5253
+Hino Do Caloiro; Fim De Semana; 0.5244
+Hino Do Caloiro; Coração de Estudante; 0.5235
+Sempre Bragança; Noite Puxa Noite; 0.5177
+Hino Do Caloiro; Carta Sem Endereço; 0.5152
+Sempre Bragança; Para Ti; 0.5141
+Azevinho; Vamos Ao Festival; 0.5125
+Hino Do Caloiro; Promessa de Estudante; 0.5096
+Hino Do Caloiro; Zé Fadista; 0.5069
+Hino Do Caloiro; Digressão; 0.5050
+Vamos Ao Festival; Para Ti; 0.5022
+Hino Do Caloiro; Serenata Menina; 0.5022
+Hino Do Caloiro; Secreto Desejo; 0.5002
+Taberna Transmontana; Hino Do Caloiro; 0.4905
+Zé Fadista; Vamos Ao Festival; 0.4843
+Febres Altas; Vamos Ao Festival; 0.4842
+Hino Do Caloiro; Lua Feiticeira; 0.4835
+Rauss&Tuna'S; Hino da RaussTuna; 0.4833
+Hino Do Caloiro; Febres Altas; 0.4723
+Hino Do Caloiro; Azevinho; 0.4716
+Rauss&Tuna'S; Digressão; 0.4629
+Rauss&Tuna'S; Vamos Ao Festival; 0.4588
+Hino Do Caloiro; Lado a Lado; 0.4522
+Hino Do Caloiro; Tempo; 0.4514
+O Meu Curso; Rauss&Tuna'S; 0.4487
+Sapo Estudante; Rauss&Tuna'S; 0.4442
+Hino Do Caloiro; Hino Do Lagoa Azul; 0.4428
+Lágrima; Hino Do Caloiro; 0.4353
+Embuste Das Cidras; Sempre Bragança; 0.4349
+Hino Do Caloiro; Para Ti; 0.4322
+Vida De Caloiro; Rauss&Tuna'S; 0.4231
+Hino Do Caloiro; Noite Puxa Noite; 0.4230
+Rauss&Tuna'S; Lado a Lado; 0.4199
+Rauss&Tuna'S; Rauss, Quero Voltar; 0.4165
+A Tuna!; Rauss&Tuna'S; 0.4123
+Lua Feiticeira; Rauss&Tuna'S; 0.4100
+Carpe Diem; Rauss&Tuna'S; 0.3997
+Rauss&Tuna'S; Coração de Estudante; 0.3956
+Rauss&Tuna'S; Azevinho; 0.3929
+Rauss&Tuna'S; Hino Do Lagoa Azul; 0.3886
+A Aventura Começou; Rauss&Tuna'S; 0.3862
+Rauss&Tuna'S; Serenata Menina; 0.3857
+Sempre Bragança; Rauss&Tuna'S; 0.3836
+Fim De Semana; Rauss&Tuna'S; 0.3777
+Taberna Transmontana; Rauss&Tuna'S; 0.3708
+Febres Altas; Rauss&Tuna'S; 0.3674
+Hino Do Caloiro; Rauss&Tuna'S; 0.3558
+Tempo; Rauss&Tuna'S; 0.3468
+Secreto Desejo; Rauss&Tuna'S; 0.3443
+Zé Fadista; Rauss&Tuna'S; 0.3431
+Rauss&Tuna'S; Para Ti; 0.3361
+Rauss&Tuna'S; Fraldiqueiros de Mindelo; 0.3341
+Carta Sem Endereço; Rauss&Tuna'S; 0.3335
+Rauss&Tuna'S; Promessa de Estudante; 0.3281
+Embuste Das Cidras; Hino Do Caloiro; 0.3165
+Noite Puxa Noite; Rauss&Tuna'S; 0.2837
+Lágrima; Rauss&Tuna'S; 0.2802
+Embuste Das Cidras; Rauss&Tuna'S; 0.2726
