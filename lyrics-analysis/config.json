@@ -1,7 +1,7 @@
 {
     "songs_directory": "songs",
     "embeddings_path": "data/cbow_s50.txt",
-    "output_path": "data/output.csv",
+    "output_path": "output/output_cbow_s50.csv",
     "visualization_method": "tsne",
     "tsne_params": {
         "perplexity": 10,
