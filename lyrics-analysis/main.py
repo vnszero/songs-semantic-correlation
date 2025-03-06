@@ -62,11 +62,9 @@ def main():
 
     # display results
     with open(output_path, "w") as output_file:
-        output_file.write("Similarity between songs:\n")
+        output_file.write("song1; song2; similarity\n")
         for song1, song2, sim in similarities:
-            output_file.write(f"{song1} ↔ {song2}: {sim:.4f}\n")
-
-        output_file.write(f"Songs with embeddings: {num_songs}\n")
+            output_file.write(f"{song1}; {song2}; {sim:.4f}\n")
 
     # plot embeddings with t-SNE
     embeddings = [song["embedding"] for song in songs_with_embeddings]
