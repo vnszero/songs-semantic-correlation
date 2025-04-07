@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Score color classes */
+td.score-9 { background-color: #006400; color: white; }   /* Dark green */
+td.score-8 { background-color: #32CD32; color: black; }   /* Light green */
+td.score-7 { background-color: #ADFF2F; color: black; }   /* Yellow-green */
+td.score-6 { background-color: #FFFF00; color: black; }   /* Yellow */
+td.score-5 { background-color: #FFD700; color: black; }   /* Orange-yellow */
+td.score-4 { background-color: #FFA500; color: black; }   /* Orange */
+td.score-3 { background-color: #FF7F7F; color: black; }   /* Light red */
+td.score-2 { background-color: #FF4500; color: black; }   /* Red */
+td.score-1 { background-color: #8B0000; color: white; }   /* Dark red */
+td.score-0 { background-color: #4B0000; color: white; }   /* Brown / darkest */
