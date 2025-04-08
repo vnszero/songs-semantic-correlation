@@ -111,10 +111,46 @@ function updateTable(selectedSong) {
         });
 }
 
+function sanitizeFilename(songName) {
+    // Remove special characters and spaces, replace by underscores or similar
+    return songName
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // remove accents
+        .replace(/[^a-zA-Z0-9]/g, "") // remove non-alphanumeric
+        .replace(/\s+/g, '') + '.json';
+}
+
+function loadSongMetadata(songName) {
+    const filename = sanitizeFilename(songName);
+    const metadataDiv = document.getElementById("songMetadata");
+
+    fetch(`lyrics-analysis/songs/${filename}`)
+        .then(res => {
+            if (!res.ok) throw new Error("Metadata not found");
+            return res.json();
+        })
+        .then(data => {
+            metadataDiv.innerHTML = `
+          <h3>"${data.name}"</h3>
+          <p><strong>Autores:</strong> ${data.lyricists.join(", ")}</p>
+          <p><strong>Melodia:</strong> ${data.melody_authors.join(", ")}</p>
+          <p><strong>Tom:</strong> ${data.tone}</p>
+          <p><strong>BPM:</strong> ${data.beats_per_minute}</p>
+        `;
+        })
+        .catch(err => {
+            metadataDiv.innerHTML = `<p><em>Dados não disponíveis para "${songName}"</em></p>`;
+        });
+}
 
 songSelector.addEventListener("change", e => {
     const selectedSong = e.target.value;
     if (selectedSong) updateTable(selectedSong);
+});
+
+songSelector.addEventListener("change", () => {
+    const selected = songSelector.value;
+    updateTable(selected);
+    loadSongMetadata(selected);
 });
 
 Promise.all(csvFiles.map(loadCSV)).then(() => {

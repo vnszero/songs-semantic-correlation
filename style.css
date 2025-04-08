@@ -57,3 +57,23 @@ td.score-3 { background-color: #FF7F7F; color: black; }   /* Light red */
 td.score-2 { background-color: #FF4500; color: black; }   /* Red */
 td.score-1 { background-color: #8B0000; color: white; }   /* Dark red */
 td.score-0 { background-color: #4B0000; color: white; }   /* Brown / darkest */
+
+.metadata-container {
+    text-align: left;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    max-width: 700px;
+    font-size: 14px;
+}
+
+.metadata-container h3 {
+    text-align: center;
+}
+
+.metadata-container strong {
+    display: inline-block;
+    width: 150px;
+}
