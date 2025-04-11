@@ -1,8 +1,3 @@
-Melhorar visualização das distâncias
-    - prós: facilitar compreensão dos resultados
-    - contras: nada
-    - dúvida: como fazer? Legendas, juntar resultados em média
-
 Inserir acordes musicais na compreensão das música
     - prós: completa a análise de músicas
     - contras: nada
