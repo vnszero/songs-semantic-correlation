@@ -57,12 +57,21 @@ function updateTable(selectedSong) {
 
     // Clear existing table
     tableHead.innerHTML = "<th>Música</th>";
-    modelNames.sort()
+    modelNames.sort();
     modelNames.forEach(model => {
         const th = document.createElement("th");
         th.textContent = model;
         tableHead.appendChild(th);
     });
+
+    // Add Average and Std Dev headers
+    const avgTh = document.createElement("th");
+    avgTh.textContent = "Média";
+    tableHead.appendChild(avgTh);
+
+    const stdTh = document.createElement("th");
+    stdTh.textContent = "Desvio Padrão";
+    tableHead.appendChild(stdTh);
 
     // Create map: song -> { model1: similarity, model2: similarity, ... }
     const songScores = {};
@@ -91,11 +100,14 @@ function updateTable(selectedSong) {
             tdName.textContent = otherSong;
             tr.appendChild(tdName);
 
+            const values = [];
+
             modelNames.forEach(model => {
                 const td = document.createElement("td");
                 const value = similarities[model];
 
                 if (value !== undefined) {
+                    values.push(value);
                     const fixedValue = value.toFixed(4);
                     td.textContent = fixedValue;
 
@@ -112,9 +124,31 @@ function updateTable(selectedSong) {
                 tr.appendChild(td);
             });
 
+            // Média e desvio padrão
+            const avg = values.reduce((a, b) => a + b, 0) / values.length;
+            const std = Math.sqrt(values.reduce((acc, val) => acc + Math.pow(val - avg, 2), 0) / values.length);
+
+            const tdAvg = document.createElement("td");
+            tdAvg.textContent = isNaN(avg) ? "-" : avg.toFixed(4);
+            tdAvg.classList.add("summary");
+            const level = Math.min(9, Math.floor(avg * 10)); // 0 to 9
+            if (level < 0) {
+                tdAvg.classList.add("score-n");
+            } else {
+                tdAvg.classList.add(`score-${level}`);
+            }
+
+            const tdStd = document.createElement("td");
+            tdStd.textContent = isNaN(std) ? "-" : std.toFixed(4);
+            tdStd.classList.add("summary");
+
+            tr.appendChild(tdAvg);
+            tr.appendChild(tdStd);
+
             tableBody.appendChild(tr);
         });
 }
+
 
 function sanitizeFilename(songName) {
     // Remove special characters and spaces, replace by underscores or similar
