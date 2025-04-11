@@ -99,7 +99,11 @@ function updateTable(selectedSong) {
                     td.textContent = fixedValue;
 
                     const level = Math.min(9, Math.floor(value * 10)); // 0 to 9
-                    td.classList.add(`score-${level}`);
+                    if (level < 0) {
+                        td.classList.add(`score-n`);
+                    } else {
+                        td.classList.add(`score-${level}`);
+                    }
                 } else {
                     td.textContent = "-";
                 }

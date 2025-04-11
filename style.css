@@ -47,16 +47,72 @@ tbody tr:nth-child(even) {
 }
 
 /* Score color classes */
-td.score-9 { background-color: #006400; color: white; }   /* Dark green */
-td.score-8 { background-color: #32CD32; color: black; }   /* Light green */
-td.score-7 { background-color: #ADFF2F; color: black; }   /* Yellow-green */
-td.score-6 { background-color: #FFFF00; color: black; }   /* Yellow */
-td.score-5 { background-color: #FFD700; color: black; }   /* Orange-yellow */
-td.score-4 { background-color: #FFA500; color: black; }   /* Orange */
-td.score-3 { background-color: #FF7F7F; color: black; }   /* Light red */
-td.score-2 { background-color: #FF4500; color: black; }   /* Red */
-td.score-1 { background-color: #8B0000; color: white; }   /* Dark red */
-td.score-0 { background-color: #4B0000; color: white; }   /* Brown / darkest */
+.score-9 {
+    background-color: #006400;
+    color: white;
+}
+
+/* Dark green */
+.score-8 {
+    background-color: #32CD32;
+    color: black;
+}
+
+/* Light green */
+.score-7 {
+    background-color: #ADFF2F;
+    color: black;
+}
+
+/* Yellow-green */
+.score-6 {
+    background-color: #FFFF00;
+    color: black;
+}
+
+/* Yellow */
+.score-5 {
+    background-color: #FFD700;
+    color: black;
+}
+
+/* Orange-yellow */
+.score-4 {
+    background-color: #FFA500;
+    color: black;
+}
+
+/* Orange */
+.score-3 {
+    background-color: #FF7F7F;
+    color: black;
+}
+
+/* Light red */
+.score-2 {
+    background-color: #FF4500;
+    color: black;
+}
+
+/* Red */
+.score-1 {
+    background-color: #8B0000;
+    color: white;
+}
+
+/* Dark red */
+.score-0 {
+    background-color: #4B0000;
+    color: white;
+}
+
+/* Super dark red */
+.score-n {
+    background-color: #240000;
+    color: white;
+}
+
+/* Darkest red */
 
 .metadata-container {
     text-align: left;
@@ -76,4 +132,35 @@ td.score-0 { background-color: #4B0000; color: white; }   /* Brown / darkest */
 .metadata-container strong {
     display: inline-block;
     width: 150px;
+}
+
+.legend {
+    margin: 20px auto;
+    padding: 10px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+.color-legend {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 6px;
+}
+
+.color-legend li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.color-legend .box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 4px;
 }
