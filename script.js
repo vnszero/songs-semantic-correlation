@@ -1,12 +1,12 @@
 const outputFolder = "lyrics-analysis/outputs";
 const csvFiles = [
-    "output_cbow_s50.csv",
+    "output_cbow_s050.csv",
     "output_cbow_s100.csv",
     "output_cbow_s300.csv",
-    "output_glove_s50.csv",
+    "output_glove_s050.csv",
     "output_glove_s100.csv",
     "output_glove_s300.csv",
-    "output_skip_s50.csv",
+    "output_skip_s050.csv",
     "output_skip_s100.csv",
     "output_skip_s300.csv"
 ];
@@ -57,6 +57,7 @@ function updateTable(selectedSong) {
 
     // Clear existing table
     tableHead.innerHTML = "<th>Música</th>";
+    modelNames.sort()
     modelNames.forEach(model => {
         const th = document.createElement("th");
         th.textContent = model;
