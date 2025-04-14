@@ -52,17 +52,21 @@ function populateSelector() {
 }
 
 function updateTable(selectedSong) {
+    const isSmallScreen = window.innerWidth <= 900;
+
     const tableHead = resultsTable.querySelector("thead tr");
     const tableBody = resultsTable.querySelector("tbody");
 
     // Clear existing table
     tableHead.innerHTML = "<th>Música</th>";
-    modelNames.sort();
-    modelNames.forEach(model => {
-        const th = document.createElement("th");
-        th.textContent = model;
-        tableHead.appendChild(th);
-    });
+    if (!isSmallScreen) {
+        modelNames.sort();
+        modelNames.forEach(model => {
+            const th = document.createElement("th");
+            th.textContent = model;
+            tableHead.appendChild(th);
+        });
+    }
 
     // Add Average and Std Dev headers
     const avgTh = document.createElement("th");
@@ -102,41 +106,40 @@ function updateTable(selectedSong) {
 
             const values = [];
 
-            modelNames.forEach(model => {
-                const td = document.createElement("td");
-                const value = similarities[model];
+            if (!isSmallScreen) {
+                modelNames.forEach(model => {
+                    const td = document.createElement("td");
+                    const value = similarities[model];
 
-                if (value !== undefined) {
-                    values.push(value);
-                    const fixedValue = value.toFixed(4);
-                    td.textContent = fixedValue;
+                    if (value !== undefined) {
+                        values.push(value);
+                        const fixedValue = value.toFixed(4);
+                        td.textContent = fixedValue;
 
-                    const level = Math.min(9, Math.floor(value * 10)); // 0 to 9
-                    if (level < 0) {
-                        td.classList.add(`score-n`);
+                        const level = Math.min(9, Math.floor(value * 10));
+                        td.classList.add(level < 0 ? `score-n` : `score-${level}`);
                     } else {
-                        td.classList.add(`score-${level}`);
+                        td.textContent = "-";
                     }
-                } else {
-                    td.textContent = "-";
-                }
 
-                tr.appendChild(td);
-            });
+                    tr.appendChild(td);
+                });
+            } else {
+                modelNames.forEach(model => {
+                    const value = similarities[model];
+                    if (value !== undefined) values.push(value);
+                });
+            }
 
-            // Média e desvio padrão
-            const avg = values.reduce((a, b) => a + b, 0) / values.length;
-            const std = Math.sqrt(values.reduce((acc, val) => acc + Math.pow(val - avg, 2), 0) / values.length);
+            // Avg e Std devitation
+            const avg = values.length > 0 ? values.reduce((a, b) => a + b, 0) / values.length : NaN;
+            const std = values.length > 0 ? Math.sqrt(values.reduce((acc, val) => acc + Math.pow(val - avg, 2), 0) / values.length) : NaN;
 
             const tdAvg = document.createElement("td");
             tdAvg.textContent = isNaN(avg) ? "-" : avg.toFixed(4);
             tdAvg.classList.add("summary");
-            const level = Math.min(9, Math.floor(avg * 10)); // 0 to 9
-            if (level < 0) {
-                tdAvg.classList.add("score-n");
-            } else {
-                tdAvg.classList.add(`score-${level}`);
-            }
+            const avgLevel = Math.min(9, Math.floor(avg * 10));
+            tdAvg.classList.add(isNaN(avgLevel) ? "score-n" : `score-${avgLevel}`);
 
             const tdStd = document.createElement("td");
             tdStd.textContent = isNaN(std) ? "-" : std.toFixed(4);
@@ -190,6 +193,11 @@ songSelector.addEventListener("change", () => {
     const selected = songSelector.value;
     updateTable(selected);
     loadSongMetadata(selected);
+});
+
+window.addEventListener("resize", () => {
+    const selected = songSelector.value;
+    if (selected) updateTable(selected);
 });
 
 Promise.all(csvFiles.map(loadCSV)).then(() => {
