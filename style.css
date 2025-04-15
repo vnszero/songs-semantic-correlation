@@ -112,6 +112,41 @@ tbody tr:nth-child(even) {
     color: white;
 }
 
+/* #0ae0e0 */
+.std-0 {
+    background-color: #0ae0e0;
+    color: black;
+}
+
+/* #4b8f8f */
+.std-1 {
+    background-color: #4b8f8f;
+    color: white;
+}
+
+/* #94b0c7 */
+.std-2 {
+    background-color: #94b0c7;
+    color: black;
+}
+
+/* #a5a5a5 */
+.std-3 {
+    background-color: #a5a5a5;
+    color: white;
+}
+
+/* #5c5c5e */
+.std-4 {
+    background-color: #5c5c5e;
+    color: white;
+}
+
+.std-n {
+    background-color: #f0f0f0;
+    color: #aaa;
+}
+
 /* Darkest red */
 
 .metadata-container {

@@ -144,6 +144,22 @@ function updateTable(selectedSong) {
             const tdStd = document.createElement("td");
             tdStd.textContent = isNaN(std) ? "-" : std.toFixed(4);
             tdStd.classList.add("summary");
+            let stdLevel;
+            if (isNaN(std)) {
+                stdLevel = "n";
+            } else if (std < 0.05) {
+                stdLevel = "0";
+            } else if (std < 0.10) {
+                stdLevel = "1";
+            } else if (std < 0.15) {
+                stdLevel = "2";
+            } else if (std < 0.20) {
+                stdLevel = "3";
+            } else {
+                stdLevel = "4";
+            }
+
+            tdStd.classList.add(`std-${stdLevel}`);
 
             tr.appendChild(tdAvg);
             tr.appendChild(tdStd);
